@@ -39,28 +39,28 @@
                 </div>
               </div>
             </div>
-            <div class="dropdown">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-gear fa-lg"></i>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Accessibility</a></li>
-                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle rounded" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                <i class="fa-solid fa-gear fa-lg"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button">Profile</button></li>
+                <li><button class="dropdown-item" type="button">Accessibility</button></li>
+                <li><button class="dropdown-item" type="button">Privacy and Data</button></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
               </ul>
-          </div>
+            </div>
         </div>
     </nav>
-    <ul class="nav nav-tabs justify-content-center my-4" id="myTab" role="tablist">
+    <ul class="nav nav-tabs none justify-content-center my-4" style="border: none" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><img src="https://img.icons8.com/?size=512&id=22984&format=png" width="20" alt=""></button>
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="border:none"><i class="fa-solid fa-table-cells fa-lg"></i></button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" style="border: none;"><i class="fa-solid fa-square fa-lg"></i>
           <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
-        </svg></button>
+        </button>
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -144,6 +144,7 @@
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
+          
 
     </div>
     
